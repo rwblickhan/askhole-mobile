@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD519C462A23D92500C14CEA /* AskholeMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */; };
+		CD519C482A23D92500C14CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C472A23D92500C14CEA /* ContentView.swift */; };
+		CD519C4A2A23D92500C14CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD519C492A23D92500C14CEA /* Assets.xcassets */; };
+		CD519C4D2A23D92500C14CEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD519C4C2A23D92500C14CEA /* Preview Assets.xcassets */; };
+		CD519C572A23D92600C14CEA /* AskholeMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C562A23D92600C14CEA /* AskholeMobileTests.swift */; };
+		CD519C612A23D92600C14CEA /* AskholeMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */; };
+		CD519C632A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD519C532A23D92600C14CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD519C3A2A23D92500C14CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD519C412A23D92500C14CEA;
+			remoteInfo = AskholeMobile;
+		};
+		CD519C5D2A23D92600C14CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD519C3A2A23D92500C14CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD519C412A23D92500C14CEA;
+			remoteInfo = AskholeMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD519C422A23D92500C14CEA /* AskholeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskholeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileApp.swift; sourceTree = "<group>"; };
+		CD519C472A23D92500C14CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD519C492A23D92500C14CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD519C4C2A23D92500C14CEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD519C522A23D92600C14CEA /* AskholeMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskholeMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD519C562A23D92600C14CEA /* AskholeMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileTests.swift; sourceTree = "<group>"; };
+		CD519C5C2A23D92600C14CEA /* AskholeMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskholeMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITests.swift; sourceTree = "<group>"; };
+		CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD519C3F2A23D92500C14CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD519C4F2A23D92600C14CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD519C592A23D92600C14CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD519C392A23D92500C14CEA = {
+			isa = PBXGroup;
+			children = (
+				CD519C442A23D92500C14CEA /* AskholeMobile */,
+				CD519C552A23D92600C14CEA /* AskholeMobileTests */,
+				CD519C5F2A23D92600C14CEA /* AskholeMobileUITests */,
+				CD519C432A23D92500C14CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD519C432A23D92500C14CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD519C422A23D92500C14CEA /* AskholeMobile.app */,
+				CD519C522A23D92600C14CEA /* AskholeMobileTests.xctest */,
+				CD519C5C2A23D92600C14CEA /* AskholeMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD519C442A23D92500C14CEA /* AskholeMobile */ = {
+			isa = PBXGroup;
+			children = (
+				CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */,
+				CD519C472A23D92500C14CEA /* ContentView.swift */,
+				CD519C492A23D92500C14CEA /* Assets.xcassets */,
+				CD519C4B2A23D92500C14CEA /* Preview Content */,
+			);
+			path = AskholeMobile;
+			sourceTree = "<group>";
+		};
+		CD519C4B2A23D92500C14CEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD519C4C2A23D92500C14CEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD519C552A23D92600C14CEA /* AskholeMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD519C562A23D92600C14CEA /* AskholeMobileTests.swift */,
+			);
+			path = AskholeMobileTests;
+			sourceTree = "<group>";
+		};
+		CD519C5F2A23D92600C14CEA /* AskholeMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */,
+				CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */,
+			);
+			path = AskholeMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD519C412A23D92500C14CEA /* AskholeMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD519C662A23D92600C14CEA /* Build configuration list for PBXNativeTarget "AskholeMobile" */;
+			buildPhases = (
+				CD519C3E2A23D92500C14CEA /* Sources */,
+				CD519C3F2A23D92500C14CEA /* Frameworks */,
+				CD519C402A23D92500C14CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AskholeMobile;
+			productName = AskholeMobile;
+			productReference = CD519C422A23D92500C14CEA /* AskholeMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD519C512A23D92600C14CEA /* AskholeMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD519C692A23D92600C14CEA /* Build configuration list for PBXNativeTarget "AskholeMobileTests" */;
+			buildPhases = (
+				CD519C4E2A23D92600C14CEA /* Sources */,
+				CD519C4F2A23D92600C14CEA /* Frameworks */,
+				CD519C502A23D92600C14CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD519C542A23D92600C14CEA /* PBXTargetDependency */,
+			);
+			name = AskholeMobileTests;
+			productName = AskholeMobileTests;
+			productReference = CD519C522A23D92600C14CEA /* AskholeMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD519C5B2A23D92600C14CEA /* AskholeMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD519C6C2A23D92600C14CEA /* Build configuration list for PBXNativeTarget "AskholeMobileUITests" */;
+			buildPhases = (
+				CD519C582A23D92600C14CEA /* Sources */,
+				CD519C592A23D92600C14CEA /* Frameworks */,
+				CD519C5A2A23D92600C14CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD519C5E2A23D92600C14CEA /* PBXTargetDependency */,
+			);
+			name = AskholeMobileUITests;
+			productName = AskholeMobileUITests;
+			productReference = CD519C5C2A23D92600C14CEA /* AskholeMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD519C3A2A23D92500C14CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CD519C412A23D92500C14CEA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CD519C512A23D92600C14CEA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CD519C412A23D92500C14CEA;
+					};
+					CD519C5B2A23D92600C14CEA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CD519C412A23D92500C14CEA;
+					};
+				};
+			};
+			buildConfigurationList = CD519C3D2A23D92500C14CEA /* Build configuration list for PBXProject "AskholeMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD519C392A23D92500C14CEA;
+			productRefGroup = CD519C432A23D92500C14CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD519C412A23D92500C14CEA /* AskholeMobile */,
+				CD519C512A23D92600C14CEA /* AskholeMobileTests */,
+				CD519C5B2A23D92600C14CEA /* AskholeMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD519C402A23D92500C14CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD519C4D2A23D92500C14CEA /* Preview Assets.xcassets in Resources */,
+				CD519C4A2A23D92500C14CEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD519C502A23D92600C14CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD519C5A2A23D92600C14CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD519C3E2A23D92500C14CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD519C482A23D92500C14CEA /* ContentView.swift in Sources */,
+				CD519C462A23D92500C14CEA /* AskholeMobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD519C4E2A23D92600C14CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD519C572A23D92600C14CEA /* AskholeMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD519C582A23D92600C14CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD519C632A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift in Sources */,
+				CD519C612A23D92600C14CEA /* AskholeMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD519C542A23D92600C14CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD519C412A23D92500C14CEA /* AskholeMobile */;
+			targetProxy = CD519C532A23D92600C14CEA /* PBXContainerItemProxy */;
+		};
+		CD519C5E2A23D92600C14CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD519C412A23D92500C14CEA /* AskholeMobile */;
+			targetProxy = CD519C5D2A23D92600C14CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD519C642A23D92600C14CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD519C652A23D92600C14CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD519C672A23D92600C14CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AskholeMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = C436KHVHT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.AskholeMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD519C682A23D92600C14CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AskholeMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = C436KHVHT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.AskholeMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD519C6A2A23D92600C14CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C436KHVHT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.AskholeMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AskholeMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AskholeMobile";
+			};
+			name = Debug;
+		};
+		CD519C6B2A23D92600C14CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C436KHVHT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.AskholeMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AskholeMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AskholeMobile";
+			};
+			name = Release;
+		};
+		CD519C6D2A23D92600C14CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C436KHVHT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.AskholeMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AskholeMobile;
+			};
+			name = Debug;
+		};
+		CD519C6E2A23D92600C14CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C436KHVHT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rwblickhan.AskholeMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AskholeMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD519C3D2A23D92500C14CEA /* Build configuration list for PBXProject "AskholeMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD519C642A23D92600C14CEA /* Debug */,
+				CD519C652A23D92600C14CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD519C662A23D92600C14CEA /* Build configuration list for PBXNativeTarget "AskholeMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD519C672A23D92600C14CEA /* Debug */,
+				CD519C682A23D92600C14CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD519C692A23D92600C14CEA /* Build configuration list for PBXNativeTarget "AskholeMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD519C6A2A23D92600C14CEA /* Debug */,
+				CD519C6B2A23D92600C14CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD519C6C2A23D92600C14CEA /* Build configuration list for PBXNativeTarget "AskholeMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD519C6D2A23D92600C14CEA /* Debug */,
+				CD519C6E2A23D92600C14CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD519C3A2A23D92500C14CEA /* Project object */;
+}
