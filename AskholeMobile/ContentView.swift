@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let items: [Question]
+    
+    init() {
+        items = Bundle.main.decode([Question].self, from: "questions.json")
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ScrollView {
+                ForEach(items) { item in
+                    Text(item.question)
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

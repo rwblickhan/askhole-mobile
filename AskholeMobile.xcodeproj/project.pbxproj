@@ -16,6 +16,7 @@
 		CD519C632A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */; };
 		CD519C702A245A1500C14CEA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C6F2A245A1500C14CEA /* Question.swift */; };
 		CD519C722A245FF400C14CEA /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = CD519C712A245FF400C14CEA /* questions.json */; };
+		CD519C742A2468EA00C14CEA /* Bundle+JSONExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C732A2468EA00C14CEA /* Bundle+JSONExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD519C6F2A245A1500C14CEA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CD519C712A245FF400C14CEA /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		CD519C732A2468EA00C14CEA /* Bundle+JSONExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+JSONExtensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */,
+				CD519C732A2468EA00C14CEA /* Bundle+JSONExtensions.swift */,
 				CD519C472A23D92500C14CEA /* ContentView.swift */,
 				CD519C492A23D92500C14CEA /* Assets.xcassets */,
 				CD519C4B2A23D92500C14CEA /* Preview Content */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD519C702A245A1500C14CEA /* Question.swift in Sources */,
+				CD519C742A2468EA00C14CEA /* Bundle+JSONExtensions.swift in Sources */,
 				CD519C482A23D92500C14CEA /* ContentView.swift in Sources */,
 				CD519C462A23D92500C14CEA /* AskholeMobileApp.swift in Sources */,
 			);
