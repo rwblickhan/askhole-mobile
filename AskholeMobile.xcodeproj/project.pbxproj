@@ -14,6 +14,8 @@
 		CD519C572A23D92600C14CEA /* AskholeMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C562A23D92600C14CEA /* AskholeMobileTests.swift */; };
 		CD519C612A23D92600C14CEA /* AskholeMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */; };
 		CD519C632A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */; };
+		CD519C702A245A1500C14CEA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C6F2A245A1500C14CEA /* Question.swift */; };
+		CD519C722A245FF400C14CEA /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = CD519C712A245FF400C14CEA /* questions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CD519C5C2A23D92600C14CEA /* AskholeMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskholeMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITests.swift; sourceTree = "<group>"; };
 		CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD519C6F2A245A1500C14CEA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CD519C712A245FF400C14CEA /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				CD519C472A23D92500C14CEA /* ContentView.swift */,
 				CD519C492A23D92500C14CEA /* Assets.xcassets */,
 				CD519C4B2A23D92500C14CEA /* Preview Content */,
+				CD519C6F2A245A1500C14CEA /* Question.swift */,
+				CD519C712A245FF400C14CEA /* questions.json */,
 			);
 			path = AskholeMobile;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD519C722A245FF400C14CEA /* questions.json in Resources */,
 				CD519C4D2A23D92500C14CEA /* Preview Assets.xcassets in Resources */,
 				CD519C4A2A23D92500C14CEA /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD519C702A245A1500C14CEA /* Question.swift in Sources */,
 				CD519C482A23D92500C14CEA /* ContentView.swift in Sources */,
 				CD519C462A23D92500C14CEA /* AskholeMobileApp.swift in Sources */,
 			);
