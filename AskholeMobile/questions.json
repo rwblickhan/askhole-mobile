@@ -1,412 +1,412 @@
 [
   {
-    "question": "In what ways are you inhibited from expressing love?",
+    "text": "In what ways are you inhibited from expressing love?",
     "id": 1
   },
   {
-    "question": "What difficult or painful experience would you recommend to everyone?",
+    "text": "What difficult or painful experience would you recommend to everyone?",
     "id": 2
   },
   {
-    "question": "What's the most intense emotional pain you've ever experienced?",
+    "text": "What's the most intense emotional pain you've ever experienced?",
     "id": 3
   },
-  { "question": "In what ways don't you trust yourself?", "id": 4 },
-  { "question": "How have you disappointed your parents?", "id": 5 },
+  { "text": "In what ways don't you trust yourself?", "id": 4 },
+  { "text": "How have you disappointed your parents?", "id": 5 },
   {
-    "question": "What about yourself have you been trying to fix for a long time?",
+    "text": "What about yourself have you been trying to fix for a long time?",
     "id": 6
   },
   {
-    "question": "How would you raise a child differently from how your parents raised you?",
+    "text": "How would you raise a child differently from how your parents raised you?",
     "id": 7
   },
   {
-    "question": "What was the last thing you cried about? When was it?",
+    "text": "What was the last thing you cried about? When was it?",
     "id": 8
   },
   {
-    "question": "What was the most difficult thing you've ever had to do?",
+    "text": "What was the most difficult thing you've ever had to do?",
     "id": 9
   },
   {
-    "question": "In what ways do you tend to fail at communication?",
+    "text": "In what ways do you tend to fail at communication?",
     "id": 10
   },
-  { "question": "What is currently your greatest insecurity?", "id": 11 },
-  { "question": "Which of your habits conflicts with your values?", "id": 12 },
+  { "text": "What is currently your greatest insecurity?", "id": 11 },
+  { "text": "Which of your habits conflicts with your values?", "id": 12 },
   {
-    "question": "What aspect about the person to your left gives you the strongest negative feeling?",
+    "text": "What aspect about the person to your left gives you the strongest negative feeling?",
     "id": 13
   },
-  { "question": "What do you still owe someone an apology for?", "id": 14 },
+  { "text": "What do you still owe someone an apology for?", "id": 14 },
   {
-    "question": "What's the most sick (mental or physical) you've ever been?",
+    "text": "What's the most sick (mental or physical) you've ever been?",
     "id": 15
   },
-  { "question": "Who do you hate most?", "id": 16 },
-  { "question": "What is your biggest obstacle toward peace?", "id": 17 },
+  { "text": "Who do you hate most?", "id": 16 },
+  { "text": "What is your biggest obstacle toward peace?", "id": 17 },
   {
-    "question": "What about your appearance would you like to change?",
+    "text": "What about your appearance would you like to change?",
     "id": 18
   },
-  { "question": "What have you done that you are most ashamed of?", "id": 19 },
-  { "question": "Are you afraid of death? Why or why not?", "id": 20 },
+  { "text": "What have you done that you are most ashamed of?", "id": 19 },
+  { "text": "Are you afraid of death? Why or why not?", "id": 20 },
   {
-    "question": "How do you heal from painful experiences? How do you know when you're done healing?",
+    "text": "How do you heal from painful experiences? How do you know when you're done healing?",
     "id": 21
   },
-  { "question": "What was your biggest financial mistake?", "id": 22 },
+  { "text": "What was your biggest financial mistake?", "id": 22 },
   {
-    "question": "What's the most intense physical pain you've ever experienced?",
+    "text": "What's the most intense physical pain you've ever experienced?",
     "id": 23
   },
   {
-    "question": "How often and in what ways does fear show up in you?",
+    "text": "How often and in what ways does fear show up in you?",
     "id": 24
   },
   {
-    "question": "Which have you planned in greater detail: killing yourself, or killing someone else?",
+    "text": "Which have you planned in greater detail: killing yourself, or killing someone else?",
     "id": 25
   },
   {
-    "question": "Who in this room would you most like to have sex with?",
+    "text": "Who in this room would you most like to have sex with?",
     "id": 26
   },
   {
-    "question": "If everyone in the room were arranged on a spectrum of attractiveness, which two people would you be between?",
+    "text": "If everyone in the room were arranged on a spectrum of attractiveness, which two people would you be between?",
     "id": 27
   },
   {
-    "question": "What problems do you see in the relationships of those around you?",
+    "text": "What problems do you see in the relationships of those around you?",
     "id": 28
   },
   {
-    "question": "You have to marry someone in this room right now. Who is it?",
+    "text": "You have to marry someone in this room right now. Who is it?",
     "id": 29
   },
   {
-    "question": "Is there anything which arouses you that you've never admitted to anybody?",
+    "text": "Is there anything which arouses you that you've never admitted to anybody?",
     "id": 30
   },
   {
-    "question": "What unusual trait do you find most attractive in a romantic partner?",
+    "text": "What unusual trait do you find most attractive in a romantic partner?",
     "id": 31
   },
   {
-    "question": "Out of all your past sexual experiences, what has made you the most uncomfortable?",
+    "text": "Out of all your past sexual experiences, what has made you the most uncomfortable?",
     "id": 32
   },
   {
-    "question": "If you were invited to an all-nude party, where all the participants are required to be naked the whole time, would you go?",
+    "text": "If you were invited to an all-nude party, where all the participants are required to be naked the whole time, would you go?",
     "id": 33
   },
   {
-    "question": "When you introspect, away from society and your physical body, deep inside, do you feel a sense of gender?",
+    "text": "When you introspect, away from society and your physical body, deep inside, do you feel a sense of gender?",
     "id": 34
   },
-  { "question": "What were the conditions of your last break-up?", "id": 35 },
+  { "text": "What were the conditions of your last break-up?", "id": 35 },
   {
-    "question": "If you had to choose one, would you rather double or halve your sex drive?",
+    "text": "If you had to choose one, would you rather double or halve your sex drive?",
     "id": 36
   },
   {
-    "question": "Would you rather fuck your girlfriend who is inhabiting your mother's body, or your mother who is inhabiting your girlfriend's body? (If you date men, switch it to boyfriend and father.)",
+    "text": "Would you rather fuck your girlfriend who is inhabiting your mother's body, or your mother who is inhabiting your girlfriend's body? (If you date men, switch it to boyfriend and father.)",
     "id": 37
   },
   {
-    "question": "In total, have you given or received more oral sex?",
+    "text": "In total, have you given or received more oral sex?",
     "id": 38
   },
   {
-    "question": "What's one of the most adventurous things you've ever done in bed?",
+    "text": "What's one of the most adventurous things you've ever done in bed?",
     "id": 39
   },
-  { "question": "Would you date yourself?", "id": 40 },
+  { "text": "Would you date yourself?", "id": 40 },
   {
-    "question": "What percentage of your preferred age/gender demographic would you be down to have sex with after roughly an hour of flirting?",
+    "text": "What percentage of your preferred age/gender demographic would you be down to have sex with after roughly an hour of flirting?",
     "id": 41
   },
   {
-    "question": "Have you ever been in an open or polyamorous relationship? If not, would you consider it?",
+    "text": "Have you ever been in an open or polyamorous relationship? If not, would you consider it?",
     "id": 42
   },
   {
-    "question": "Could you have a serious relationship with someone who expressed that they thought they were unworthy of the relationship?",
+    "text": "Could you have a serious relationship with someone who expressed that they thought they were unworthy of the relationship?",
     "id": 43
   },
   {
-    "question": "Have you ever dated someone who you felt was below your standards?",
+    "text": "Have you ever dated someone who you felt was below your standards?",
     "id": 44
   },
-  { "question": "How easy is it for you to orgasm?", "id": 45 },
+  { "text": "How easy is it for you to orgasm?", "id": 45 },
   {
-    "question": "Do you ever feel guilt or shame for romantically rejecting people who are interested in you?",
+    "text": "Do you ever feel guilt or shame for romantically rejecting people who are interested in you?",
     "id": 46
   },
   {
-    "question": "If you could press a button and double the sex drive of all women on earth, would you do it?",
+    "text": "If you could press a button and double the sex drive of all women on earth, would you do it?",
     "id": 47
   },
   {
-    "question": "If you tried, could you list the names of everyone you've had sex with?",
+    "text": "If you tried, could you list the names of everyone you've had sex with?",
     "id": 48
   },
   {
-    "question": "Are yelling fights in relationships more typical and inevitable, or terrible and avoidable?",
+    "text": "Are yelling fights in relationships more typical and inevitable, or terrible and avoidable?",
     "id": 49
   },
   {
-    "question": "What was your most disappointing sexual experience?",
+    "text": "What was your most disappointing sexual experience?",
     "id": 50
   },
   {
-    "question": "What emotion/feeling are you currently suppressing or ignoring?",
+    "text": "What emotion/feeling are you currently suppressing or ignoring?",
     "id": 51
   },
-  { "question": "Who in the room do you admire the most?", "id": 52 },
-  { "question": "Did your parents do a good job?", "id": 53 },
+  { "text": "Who in the room do you admire the most?", "id": 52 },
+  { "text": "Did your parents do a good job?", "id": 53 },
   {
-    "question": "What are the signs that someone understands you uniquely?",
+    "text": "What are the signs that someone understands you uniquely?",
     "id": 54
   },
   {
-    "question": "What is the best advice you've received, and why did you need it?",
+    "text": "What is the best advice you've received, and why did you need it?",
     "id": 55
   },
   {
-    "question": "What are you waiting to hear from someone close to you?",
+    "text": "What are you waiting to hear from someone close to you?",
     "id": 56
   },
   {
-    "question": "What do you most admire about the person to your right?",
+    "text": "What do you most admire about the person to your right?",
     "id": 57
   },
   {
-    "question": "At the gut level, do you feel that the world is safe or not safe?",
+    "text": "At the gut level, do you feel that the world is safe or not safe?",
     "id": 58
   },
   {
-    "question": "Would you rather increase the amount that people respect you, or increase the amount they desire you?",
+    "text": "Would you rather increase the amount that people respect you, or increase the amount they desire you?",
     "id": 59
   },
   {
-    "question": "What relatively common experience have you never had?",
+    "text": "What relatively common experience have you never had?",
     "id": 60
   },
   {
-    "question": "Do you ever enjoy the experience of emotional pain?",
+    "text": "Do you ever enjoy the experience of emotional pain?",
     "id": 61
   },
-  { "question": "Have you been loved enough?", "id": 62 },
+  { "text": "Have you been loved enough?", "id": 62 },
   {
-    "question": "Have you ever had (what you consider to be) a spiritual experience? If so, what was it like and what effects did it have on you?",
+    "text": "Have you ever had (what you consider to be) a spiritual experience? If so, what was it like and what effects did it have on you?",
     "id": 63
   },
   {
-    "question": "Do you feel a greater sense of satisfaction when you gain approval from people who are very similar to you, or very different from you?",
+    "text": "Do you feel a greater sense of satisfaction when you gain approval from people who are very similar to you, or very different from you?",
     "id": 64
   },
   {
-    "question": "If you could have one but not the other, would you rather love someone or be loved by someone?",
+    "text": "If you could have one but not the other, would you rather love someone or be loved by someone?",
     "id": 65
   },
-  { "question": "What kind of people do you get along best with?", "id": 66 },
-  { "question": "Which of your achievements are you most proud of?", "id": 67 },
+  { "text": "What kind of people do you get along best with?", "id": 66 },
+  { "text": "Which of your achievements are you most proud of?", "id": 67 },
   {
-    "question": "Given the guarantee that nobody will ask you the question: What is a question that you would refuse to answer?",
+    "text": "Given the guarantee that nobody will ask you the text: What is a text that you would refuse to answer?",
     "id": 68
   },
-  { "question": "How boring are you?", "id": 69 },
-  { "question": "Do you have more thoughts or more feelings?", "id": 70 },
-  { "question": "What are your coping mechanisms for stress?", "id": 71 },
+  { "text": "How boring are you?", "id": 69 },
+  { "text": "Do you have more thoughts or more feelings?", "id": 70 },
+  { "text": "What are your coping mechanisms for stress?", "id": 71 },
   {
-    "question": "Would you rather double the amount of emotional pain and pleasure you feel on a daily basis, or cut both in half?",
+    "text": "Would you rather double the amount of emotional pain and pleasure you feel on a daily basis, or cut both in half?",
     "id": 72
   },
   {
-    "question": "What is the most interesting fact about you that few people know?",
+    "text": "What is the most interesting fact about you that few people know?",
     "id": 73
   },
   {
-    "question": "Which of your personality traits are you most proud of?",
+    "text": "Which of your personality traits are you most proud of?",
     "id": 74
   },
   {
-    "question": "Which group is larger: people who trust you, or people you trust?",
+    "text": "Which group is larger: people who trust you, or people you trust?",
     "id": 75
   },
   {
-    "question": "What is the most significant thing you've ever changed your mind about?",
+    "text": "What is the most significant thing you've ever changed your mind about?",
     "id": 76
   },
   {
-    "question": "If you could ask everybody in the world one question, what would it be? You don't get to hear their answers.",
+    "text": "If you could ask everybody in the world one question, what would it be? You don't get to hear their answers.",
     "id": 77
   },
-  { "question": "Are some human lives worth more than others?", "id": 78 },
+  { "text": "Are some human lives worth more than others?", "id": 78 },
   {
-    "question": "You must pick a number right now and live that many years total, in good physical health. You can't die before, and you can't extend after. How many years do you choose to live?",
+    "text": "You must pick a number right now and live that many years total, in good physical health. You can't die before, and you can't extend after. How many years do you choose to live?",
     "id": 79
   },
   {
-    "question": "Do you consider the state of \"unconditionally loving everyone\" to be desirable or undesirable for you, given it were possible?",
+    "text": "Do you consider the state of \"unconditionally loving everyone\" to be desirable or undesirable for you, given it were possible?",
     "id": 80
   },
   {
-    "question": "Are there any thoughts so offensive that you would advocate shaming those who think them, even if they don't act on those thoughts?",
+    "text": "Are there any thoughts so offensive that you would advocate shaming those who think them, even if they don't act on those thoughts?",
     "id": 81
   },
   {
-    "question": "Which of your beliefs would be the most difficult to change, even in the face of overwhelming evidence?",
+    "text": "Which of your beliefs would be the most difficult to change, even in the face of overwhelming evidence?",
     "id": 82
   },
   {
-    "question": "Are there any cases in which you would support forced, involuntary brain modification to change someone else's mind, urges, or behavior?",
+    "text": "Are there any cases in which you would support forced, involuntary brain modification to change someone else's mind, urges, or behavior?",
     "id": 83
   },
   {
-    "question": "You can make a designer baby. Would you rather optimize it primarily for intelligence or happiness/optimism?",
+    "text": "You can make a designer baby. Would you rather optimize it primarily for intelligence or happiness/optimism?",
     "id": 84
   },
-  { "question": "What do you think enlightenment is?", "id": 85 },
+  { "text": "What do you think enlightenment is?", "id": 85 },
   {
-    "question": "Do you believe the set of concepts like \"duty\", \"should\", \"obligation\", and \"deserving\" are ultimately more valid or meaningless?",
+    "text": "Do you believe the set of concepts like \"duty\", \"should\", \"obligation\", and \"deserving\" are ultimately more valid or meaningless?",
     "id": 86
   },
   {
-    "question": "If you could press a button that would make you feel deeply and permanently that everything was ok, would you? Assume that you'd remain functional in the world.",
+    "text": "If you could press a button that would make you feel deeply and permanently that everything was ok, would you? Assume that you'd remain functional in the world.",
     "id": 87
   },
   {
-    "question": "Can someone both be a kind person and also hold the exact opposite of your political views?",
+    "text": "Can someone both be a kind person and also hold the exact opposite of your political views?",
     "id": 88
   },
   {
-    "question": "If you could, would you wirehead (i.e. hook yourself up to a hypothetical machine that makes you totally and eternally happy and satisfied)?",
+    "text": "If you could, would you wirehead (i.e. hook yourself up to a hypothetical machine that makes you totally and eternally happy and satisfied)?",
     "id": 89
   },
   {
-    "question": "If you (and only you) could see one measurement or statistic over everyone's heads, what would you want it to indicate?",
+    "text": "If you (and only you) could see one measurement or statistic over everyone's heads, what would you want it to indicate?",
     "id": 90
   },
   {
-    "question": "Would you prefer to date someone 20 IQ points higher or 5 points lower than you?",
+    "text": "Would you prefer to date someone 20 IQ points higher or 5 points lower than you?",
     "id": 91
   },
   {
-    "question": "If you could press a button that would instantly erase every single false belief you have, would you do it?",
+    "text": "If you could press a button that would instantly erase every single false belief you have, would you do it?",
     "id": 92
   },
   {
-    "question": "If you could ask the universe one question and get the truth, what would you want to know?",
+    "text": "If you could ask the universe one text and get the truth, what would you want to know?",
     "id": 93
   },
-  { "question": "Is torture ever permissible?", "id": 94 },
+  { "text": "Is torture ever permissible?", "id": 94 },
   {
-    "question": "On planet A, everyone's 30% dumber, and you're a genius by comparison. On planet B, everyone's 30% smarter, and you're an idiot by comparison. You stay the same. Which planet would you prefer to live on?",
+    "text": "On planet A, everyone's 30% dumber, and you're a genius by comparison. On planet B, everyone's 30% smarter, and you're an idiot by comparison. You stay the same. Which planet would you prefer to live on?",
     "id": 95
   },
-  { "question": "Which technology should not have been invented?", "id": 96 },
+  { "text": "Which technology should not have been invented?", "id": 96 },
   {
-    "question": "If you could magically cause a neutral nude photo of every human to be published publicly on the internet every year on their birthday, would you?",
+    "text": "If you could magically cause a neutral nude photo of every human to be published publicly on the internet every year on their birthday, would you?",
     "id": 97
   },
   {
-    "question": "Of all the beliefs you hold, which is most likely to be considered barbaric in 150 years?",
+    "text": "Of all the beliefs you hold, which is most likely to be considered barbaric in 150 years?",
     "id": 98
   },
   {
-    "question": "You see a friend getting into their third emotionally abusive relationship in a row. Are they a victim?",
+    "text": "You see a friend getting into their third emotionally abusive relationship in a row. Are they a victim?",
     "id": 99
   },
   {
-    "question": "Do you feel that you have conscious control over your beliefs? Could you, right now, decide to believe something else if you tried? If so, which beliefs?",
+    "text": "Do you feel that you have conscious control over your beliefs? Could you, right now, decide to believe something else if you tried? If so, which beliefs?",
     "id": 100
   },
   {
-    "question": "What's the most controversial opinion you hold among your own social group?",
+    "text": "What's the most controversial opinion you hold among your own social group?",
     "id": 101
   },
   {
-    "question": "What viewpoint is the most difficult for you to empathize with?",
+    "text": "What viewpoint is the most difficult for you to empathize with?",
     "id": 102
   },
-  { "question": "Does \"no\" always really mean \"no\"?", "id": 103 },
+  { "text": "Does \"no\" always really mean \"no\"?", "id": 103 },
   {
-    "question": "If you had to fuck a cow, would you rather it be dead or alive?",
+    "text": "If you had to fuck a cow, would you rather it be dead or alive?",
     "id": 104
   },
   {
-    "question": "Do you have any political or social opinions that you're afraid to express to your friends?",
+    "text": "Do you have any political or social opinions that you're afraid to express to your friends?",
     "id": 105
   },
   {
-    "question": "In your personal experience, even if the difference is extremely slight, are men or women better at handling suffering?",
+    "text": "In your personal experience, even if the difference is extremely slight, are men or women better at handling suffering?",
     "id": 106
   },
   {
-    "question": "In a world where different ethnicities had strong genetic differences which caused different moral behavior, would racism be okay or still not okay?",
+    "text": "In a world where different ethnicities had strong genetic differences which caused different moral behavior, would racism be okay or still not okay?",
     "id": 107
   },
   {
-    "question": "What groups or communities are you most judged for being a member of?",
+    "text": "What groups or communities are you most judged for being a member of?",
     "id": 108
   },
   {
-    "question": "In a world where prostitution becomes totally legal and regulated, should sex workers be allowed to refuse clients on the basis of race?",
+    "text": "In a world where prostitution becomes totally legal and regulated, should sex workers be allowed to refuse clients on the basis of race?",
     "id": 109
   },
   {
-    "question": "Would you rather have accidentally killed someone, or be a nonoffending pedophile?",
+    "text": "Would you rather have accidentally killed someone, or be a nonoffending pedophile?",
     "id": 110
   },
   {
-    "question": "Would you support the use of realistic child sex dolls by pedophiles?",
+    "text": "Would you support the use of realistic child sex dolls by pedophiles?",
     "id": 111
   },
   {
-    "question": "Would you rather be raped or falsely (but convincingly) accused of rape?",
+    "text": "Would you rather be raped or falsely (but convincingly) accused of rape?",
     "id": 112
   },
   {
-    "question": "Does modern western culture encourage women either to overreact or underreact to \"minor\" sexual assaults, such as groping, too-drunk sex, etc.?",
+    "text": "Does modern western culture encourage women either to overreact or underreact to \"minor\" sexual assaults, such as groping, too-drunk sex, etc.?",
     "id": 113
   },
-  { "question": "How do society's morals differ from your own?", "id": 114 },
+  { "text": "How do society's morals differ from your own?", "id": 114 },
   {
-    "question": "Regardless of your conscious beliefs or actions, do you feel in your gut that sex work is degrading?",
+    "text": "Regardless of your conscious beliefs or actions, do you feel in your gut that sex work is degrading?",
     "id": 115
   },
-  { "question": "Which stereotype is actually pretty accurate?", "id": 116 },
+  { "text": "Which stereotype is actually pretty accurate?", "id": 116 },
   {
-    "question": "If you had to eliminate one million people from one ethnicity, which would it be?",
+    "text": "If you had to eliminate one million people from one ethnicity, which would it be?",
     "id": 117
   },
   {
-    "question": "A 14-year-old has sex. How large does the age gap have to be between the 14-year-old and their partner before the child can no longer meaningfully consent to sex?",
+    "text": "A 14-year-old has sex. How large does the age gap have to be between the 14-year-old and their partner before the child can no longer meaningfully consent to sex?",
     "id": 118
   },
   {
-    "question": "If a sex worker consents to sex with a customer under expectation of payment, but then the customer refuses to pay, is this closer to rape or to theft?",
+    "text": "If a sex worker consents to sex with a customer under expectation of payment, but then the customer refuses to pay, is this closer to rape or to theft?",
     "id": 119
   },
   {
-    "question": "What's your opinion of education that teaches men to be more seductive?",
+    "text": "What's your opinion of education that teaches men to be more seductive?",
     "id": 120
   },
   {
-    "question": "Do women have any systemic privilege due to their gender?",
+    "text": "Do women have any systemic privilege due to their gender?",
     "id": 121
   },
-  { "question": "Is incest wrong? Should it be illegal?", "id": 122 },
+  { "text": "Is incest wrong? Should it be illegal?", "id": 122 },
   {
-    "question": "Are there any viewpoints so offensive that they deserve to be shut down or suppressed? If so, which ones?",
+    "text": "Are there any viewpoints so offensive that they deserve to be shut down or suppressed? If so, which ones?",
     "id": 123
   },
   {
-    "question": "Regardless of your support or personal feelings, does your subconscious view trans-identifying people as closer to their birth or current gender?",
+    "text": "Regardless of your support or personal feelings, does your subconscious view trans-identifying people as closer to their birth or current gender?",
     "id": 124
   },
-  { "question": "Is bestiality wrong? Are you a vegan?", "id": 125 }
+  { "text": "Is bestiality wrong? Are you a vegan?", "id": 125 }
 ]

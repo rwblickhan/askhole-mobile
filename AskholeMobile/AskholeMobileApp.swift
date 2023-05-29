@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct AskholeMobileApp: App {
+    private var questions: [Question]
+    init() {
+        questions = Bundle.main.decode([Question].self, from: "questions.json")
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(questions: questions)
         }
     }
 }

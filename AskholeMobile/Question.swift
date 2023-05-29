@@ -8,6 +8,6 @@
 import Foundation
 
 struct Question: Codable, Identifiable {
-    let question: String
+    let text: String
     let id: Int
 }
