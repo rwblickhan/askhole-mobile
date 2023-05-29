@@ -18,6 +18,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            Spacer()
             Text(items[currentQuestion].question)
                 .padding()
             Spacer()
