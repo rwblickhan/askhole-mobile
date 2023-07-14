@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     private var questions: [Question]
     @State private var currentQuestion = 0
+    @State private var previousQuestion: Int? = nil
     @AppStorage("lowerBound") private var lowerBound = 0
     @AppStorage("upperBound") private var upperBound = 0
 
@@ -26,14 +27,23 @@ struct ContentView: View {
             CardView(question: questions[currentQuestion])
                 .padding(EdgeInsets(top: 25, leading: 20, bottom: 25, trailing: 20))
             Button("Randomize!", action: {
+                previousQuestion = currentQuestion
                 currentQuestion = Int.random(in: lowerBound ..< upperBound)
                 impact.impactOccurred()
             })
             .padding(.bottom, 15)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    NavigationLink(destination: SettingsView(), label: {
-                        Image(systemName: "gear")
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                NavigationLink(destination: SettingsView(), label: {
+                    Image(systemName: "gear")
+                })
+            }
+            if let previousQuestion {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Back", action: {
+                        currentQuestion = previousQuestion
+                        self.previousQuestion = nil
                     })
                 }
             }
