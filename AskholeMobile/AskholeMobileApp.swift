@@ -13,10 +13,12 @@ struct AskholeMobileApp: App {
     init() {
         questions = Bundle.main.decode([Question].self, from: "questions.json")
     }
-    
+
     var body: some Scene {
         WindowGroup {
-            ContentView(questions: questions)
+            NavigationView {
+                ContentView(questions: questions)
+            }
         }
     }
 }

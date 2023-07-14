@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     private var questions: [Question]
     @State private var currentQuestion = 0
-    
+
     private let impact = UIImpactFeedbackGenerator(style: .medium)
 
     init(questions: [Question]) {
@@ -27,12 +27,22 @@ struct ContentView: View {
                 impact.impactOccurred()
             })
             .padding(.bottom, 15)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: SettingsView(), label: {
+                        Image(systemName: "gear")
+                    })
+                }
+            }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(questions: [Question(text: "What aspect about the person to your left gives you the strongest negative feeling?", id: 0)])
+        ContentView(
+            questions: [Question(
+                text: "What aspect about the person to your left gives you the strongest negative feeling?",
+                id: 0)])
     }
 }
