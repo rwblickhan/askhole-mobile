@@ -26,12 +26,9 @@ struct ContentView: View {
         VStack {
             CardView(question: questions[currentQuestion])
                 .padding(EdgeInsets(top: 25, leading: 20, bottom: 25, trailing: 20))
-            Button("Randomize!", action: {
-                previousQuestion = currentQuestion
-                currentQuestion = Int.random(in: lowerBound ..< upperBound)
-                impact.impactOccurred()
-            })
-            .padding(.bottom, 15)
+            Button("Randomize!", action: randomizeQuestion)
+                .padding(.bottom, 15)
+                .onShake(action: randomizeQuestion)
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -48,6 +45,12 @@ struct ContentView: View {
                 }
             }
         }
+    }
+
+    private func randomizeQuestion() {
+        previousQuestion = currentQuestion
+        currentQuestion = Int.random(in: lowerBound ..< upperBound)
+        impact.impactOccurred()
     }
 }
 

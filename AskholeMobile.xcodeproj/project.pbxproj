@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD0791A12A6194BD00C1AF5C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0791A02A6194BD00C1AF5C /* SettingsView.swift */; };
+		CD0791A32A61A05E00C1AF5C /* DeviceShakeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0791A22A61A05E00C1AF5C /* DeviceShakeViewModifier.swift */; };
 		CD519C462A23D92500C14CEA /* AskholeMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */; };
 		CD519C482A23D92500C14CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C472A23D92500C14CEA /* ContentView.swift */; };
 		CD519C4A2A23D92500C14CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD519C492A23D92500C14CEA /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		CD0791A02A6194BD00C1AF5C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CD0791A22A61A05E00C1AF5C /* DeviceShakeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceShakeViewModifier.swift; sourceTree = "<group>"; };
 		CD519C422A23D92500C14CEA /* AskholeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskholeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileApp.swift; sourceTree = "<group>"; };
 		CD519C472A23D92500C14CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		CD519C442A23D92500C14CEA /* AskholeMobile */ = {
 			isa = PBXGroup;
 			children = (
+				CD0791A22A61A05E00C1AF5C /* DeviceShakeViewModifier.swift */,
 				CD519C452A23D92500C14CEA /* AskholeMobileApp.swift */,
 				CD519C732A2468EA00C14CEA /* Bundle+JSONExtensions.swift */,
 				CD519C472A23D92500C14CEA /* ContentView.swift */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0791A32A61A05E00C1AF5C /* DeviceShakeViewModifier.swift in Sources */,
 				CD519C702A245A1500C14CEA /* Question.swift in Sources */,
 				CD519C742A2468EA00C14CEA /* Bundle+JSONExtensions.swift in Sources */,
 				CD519C482A23D92500C14CEA /* ContentView.swift in Sources */,
