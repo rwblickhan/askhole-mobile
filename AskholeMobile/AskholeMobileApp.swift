@@ -11,19 +11,30 @@ import SwiftUI
 struct AskholeMobileApp: App {
     @AppStorage("lowerBound") private var lowerBound = 0
     @AppStorage("upperBound") private var upperBound = 0
+    @AppStorage("enableOriginalQuestions") private var enableOriginalQuestions = true
+    @AppStorage("enableExtraQuestions") private var enableExtraQuestions = true
     
-    private var questions: [Question]
+    private var originalQuestions: [String]
+    private var extraQuestions: [String]
+    private var allQuestions: [String] {
+        var list = enableOriginalQuestions ? originalQuestions : [];
+        if enableExtraQuestions {
+            list.append(contentsOf: extraQuestions)
+        }
+        return list
+    }
     init() {
-        questions = Bundle.main.decode([Question].self, from: "questions.json")
-        if (upperBound == 0) {
-            upperBound = questions.count
+        originalQuestions = Bundle.main.decode([String].self, from: "questions.json")
+        extraQuestions = Bundle.main.decode([String].self, from: "extra_questions.json")
+        if (upperBound == 0 || upperBound > allQuestions.count) {
+            upperBound = allQuestions.count
         }
     }
 
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView(questions: questions)
+                ContentView(questions: allQuestions)
             }
         }
     }

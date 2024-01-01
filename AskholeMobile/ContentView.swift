@@ -9,22 +9,22 @@ import Foundation
 import SwiftUI
 
 struct ContentView: View {
-    private var questions: [Question]
-    @State private var currentQuestion = 0
-    @State private var previousQuestion: Int? = nil
+    private var questions: [String]
+    @State private var currentQuestionIndex = 0
+    @State private var previousQuestionIndex: Int? = nil
     @AppStorage("lowerBound") private var lowerBound = 0
     @AppStorage("upperBound") private var upperBound = 0
 
     private let impact = UIImpactFeedbackGenerator(style: .medium)
 
-    init(questions: [Question]) {
+    init(questions: [String]) {
         self.questions = questions
-        _currentQuestion = State(initialValue: Int.random(in: lowerBound ..< upperBound))
+        _currentQuestionIndex = State(initialValue: Int.random(in: lowerBound ..< upperBound))
     }
 
     var body: some View {
         VStack {
-            CardView(question: questions[currentQuestion])
+            CardView(question: questions[currentQuestionIndex], index: currentQuestionIndex)
                 .padding(EdgeInsets(top: 25, leading: 20, bottom: 25, trailing: 20))
             Button("Randomize!", action: randomizeQuestion)
                 .padding(.bottom, 15)
@@ -36,11 +36,11 @@ struct ContentView: View {
                     Image(systemName: "gear")
                 })
             }
-            if let previousQuestion {
+            if let previousQuestionIndex {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Back", action: {
-                        currentQuestion = previousQuestion
-                        self.previousQuestion = nil
+                        currentQuestionIndex = previousQuestionIndex
+                        self.previousQuestionIndex = nil
                     })
                 }
             }
@@ -48,17 +48,18 @@ struct ContentView: View {
     }
 
     private func randomizeQuestion() {
-        previousQuestion = currentQuestion
-        currentQuestion = Int.random(in: lowerBound ..< upperBound)
+        previousQuestionIndex = currentQuestionIndex
+        currentQuestionIndex = Int.random(in: lowerBound ..< upperBound)
         impact.impactOccurred()
+        print("upperBound: \(upperBound)")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(
-            questions: [Question(
-                text: "What aspect about the person to your left gives you the strongest negative feeling?",
-                id: 0)])
+            questions: [
+                "What aspect about the person to your left gives you the strongest negative feeling?"])
+                
     }
 }

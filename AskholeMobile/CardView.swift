@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct CardView: View {
-    let question: Question
+    let question: String
+    let index: Int
 
     var body: some View {
-        Text(question.text)
+        Text(question)
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .overlay(alignment: .topTrailing) {
-                Text("#\(question.id)")
+                Text("#\(index)")
                     .foregroundColor(.gray)
                     .padding()
             }
@@ -26,8 +27,8 @@ struct CardView: View {
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(
-            question: Question(
-                text: "What aspect about the person to your left gives you the strongest negative feeling?",
-                id: 0))
+            question:
+                "What aspect about the person to your left gives you the strongest negative feeling?",
+            index: 0)
     }
 }

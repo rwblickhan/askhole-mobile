@@ -16,9 +16,9 @@
 		CD519C572A23D92600C14CEA /* AskholeMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C562A23D92600C14CEA /* AskholeMobileTests.swift */; };
 		CD519C612A23D92600C14CEA /* AskholeMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */; };
 		CD519C632A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */; };
-		CD519C702A245A1500C14CEA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C6F2A245A1500C14CEA /* Question.swift */; };
 		CD519C722A245FF400C14CEA /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = CD519C712A245FF400C14CEA /* questions.json */; };
 		CD519C742A2468EA00C14CEA /* Bundle+JSONExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD519C732A2468EA00C14CEA /* Bundle+JSONExtensions.swift */; };
+		CD7AB7982B4238F400C9CC43 /* extra_questions.json in Resources */ = {isa = PBXBuildFile; fileRef = CD7AB7972B4238F400C9CC43 /* extra_questions.json */; };
 		CD9474FC2A35279B00C65841 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9474FB2A35279B00C65841 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +52,9 @@
 		CD519C5C2A23D92600C14CEA /* AskholeMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskholeMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD519C602A23D92600C14CEA /* AskholeMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITests.swift; sourceTree = "<group>"; };
 		CD519C622A23D92600C14CEA /* AskholeMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskholeMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CD519C6F2A245A1500C14CEA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CD519C712A245FF400C14CEA /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		CD519C732A2468EA00C14CEA /* Bundle+JSONExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+JSONExtensions.swift"; sourceTree = "<group>"; };
+		CD7AB7972B4238F400C9CC43 /* extra_questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = extra_questions.json; sourceTree = "<group>"; };
 		CD9474FB2A35279B00C65841 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +114,8 @@
 				CD9474FB2A35279B00C65841 /* CardView.swift */,
 				CD519C492A23D92500C14CEA /* Assets.xcassets */,
 				CD519C4B2A23D92500C14CEA /* Preview Content */,
-				CD519C6F2A245A1500C14CEA /* Question.swift */,
 				CD519C712A245FF400C14CEA /* questions.json */,
+				CD7AB7972B4238F400C9CC43 /* extra_questions.json */,
 			);
 			path = AskholeMobile;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					CD519C412A23D92500C14CEA = {
 						CreatedOnToolsVersion = 14.3;
@@ -251,6 +251,7 @@
 			files = (
 				CD519C722A245FF400C14CEA /* questions.json in Resources */,
 				CD519C4D2A23D92500C14CEA /* Preview Assets.xcassets in Resources */,
+				CD7AB7982B4238F400C9CC43 /* extra_questions.json in Resources */,
 				CD519C4A2A23D92500C14CEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0791A32A61A05E00C1AF5C /* DeviceShakeViewModifier.swift in Sources */,
-				CD519C702A245A1500C14CEA /* Question.swift in Sources */,
 				CD519C742A2468EA00C14CEA /* Bundle+JSONExtensions.swift in Sources */,
 				CD519C482A23D92500C14CEA /* ContentView.swift in Sources */,
 				CD0791A12A6194BD00C1AF5C /* SettingsView.swift in Sources */,
@@ -355,6 +355,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -415,6 +416,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
